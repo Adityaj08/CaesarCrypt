@@ -18,7 +18,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd CaesarCyrpt
+  cd CaesarCrypt
 ```
 
 Install dependencies
@@ -30,7 +30,7 @@ Install dependencies
 Start the server
 
 ```bash
-  streamlit run app.py
+  streamlit run streamlit_app.py
 ```
 
 
