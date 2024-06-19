@@ -12,7 +12,7 @@ To develop a web application that allows users to encrypt and decrypt text using
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Adityaj08/CaesarCrypt
 ```
 
 Go to the project directory
@@ -43,7 +43,7 @@ Start the server
 
 ## Demo
 
-Insert gif or link to demo
+https://caesarcrypt.streamlit.app
 
 
 ## Features
