@@ -4,6 +4,7 @@ import pyperclip
 
 # Streamlit App
 def main():
+    st.set_page_config("CaesarCrypt",initial_sidebar_state="expanded")
     st.title("Cipher Encryption and Decryption")
     cipher = Cipher()
     st.sidebar.title("Cipher Options")
