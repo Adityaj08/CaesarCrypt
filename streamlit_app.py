@@ -4,7 +4,7 @@ import pyperclip
 
 # Streamlit App
 def main():
-    st.set_page_config("CaesarCrypt",initial_sidebar_state="expanded")
+    st.set_page_config("CaesarCrypt")
     st.title("Cipher Encryption and Decryption")
     cipher = Cipher()
     st.sidebar.title("Cipher Options")
@@ -12,7 +12,7 @@ def main():
     st.sidebar.markdown("---")
     if st.sidebar.button("sign-in",use_container_width=True):
         st.sidebar.info("To be Added soon...",icon=":material/info:")
-    st.sidebar.link_button("Github >","",use_container_width=True,type="primary")
+    st.sidebar.link_button("Github >","https://github.com/Adityaj08/CaesarCrypt/blob/main/README.md",use_container_width=True,type="primary")
 
     if choice == "Encrypt":
         st.subheader("Encryption")
