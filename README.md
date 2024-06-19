@@ -62,6 +62,6 @@ https://caesarcrypt.streamlit.app
 
 ## Screenshots
 
-![App Screenshot](https://caesarcrypt.streamlit.app/)
+![App Screenshot](https://github.com/Adityaj08/CaesarCrypt/blob/main/app.png)
 
 
