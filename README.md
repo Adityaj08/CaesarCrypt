@@ -24,7 +24,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install streamlit , pyperclip
+  pip install streamlit
 ```
 
 Start the server
@@ -58,6 +58,7 @@ https://caesarcrypt.streamlit.app
  
 - **Email:** adityaavadhootjoshi@gmail.com
 - **Twitter / X:** https://x.com/aditya_avadhoot
+- **Instagram:** https://www.instagram.com/ig_adityajoshi 
 
 
 ## Screenshots
