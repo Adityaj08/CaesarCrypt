@@ -1,12 +1,12 @@
 class Cipher():
 
     def __init__(self):
-        self.LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'*100
+        self.LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+={}[]/<>.,`~'*100
         
 
     def __crypt(self, mode):
         translated = ''
-        for symbol in self.message.upper():
+        for symbol in self.message:
             if symbol in self.LETTERS:
                 num = self.LETTERS.find(symbol)
                 if mode == 'encrypt':
