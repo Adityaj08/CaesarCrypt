@@ -23,7 +23,7 @@ def main():
                 encrypted_message = cipher.encrypt(message, key)
                 st.write("Encrypted text")
                 st.code(encrypted_message,language="str")
-                st.toast("Encrypted text copied to clipboard!",icon=":material/content_paste:")
+                st.toast("Copy to clipboard option has been enabled!",icon=":material/content_paste:")
             else:
                 st.toast(":red[Please enter a message to encrypt!]",icon=":material/error:")
 
